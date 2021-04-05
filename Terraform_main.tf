@@ -107,7 +107,7 @@ resource "aws_eip" "eip-1" {
 }
 #ubuntuInstance
 resource "aws_instance" "Ubuntu" {
-  ami = "ami-0d758c1134823146a"
+  ami = "ami-0a6638920f7143fb2"
   instance_type = "t2.micro"
    key_name = "azhar1297"
    tags = {
